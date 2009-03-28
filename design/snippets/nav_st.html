@@ -1,0 +1,21 @@
+<r:if_parent>
+  <r:parent>
+    <r:snippet name="navigation" />
+  </r:parent>
+ 
+
+  <ul class="navline">
+    <r:siblings by="position" order="asc">
+      <r:if_previous:each_before>
+        <li><r:link:breadcrumb /></li>
+      </r:if_previous:each_before>
+      <li class="current">
+        <r:if_self:breadcrumb/>
+        <r:unless_self:link:breadcrumb/>
+      </li>
+      <r:if_next:each_after>
+        <li><r:link:breadcrumb /></li>
+      </r:if_next:each_after>
+    </r:siblings>
+  </ul>
+</r:if_parent>

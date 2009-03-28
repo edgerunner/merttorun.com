@@ -1,0 +1,18 @@
+[submodule "vendor/extensions/paperclipped"]
+	path = vendor/extensions/paperclipped
+	url = git://github.com/kbingman/paperclipped.git
+[submodule "vendor/extensions/settings"]
+	path = vendor/extensions/settings
+	url = git://github.com/Squeegy/radiant-settings.git
+[submodule "vendor/extensions/reorder"]
+	path = vendor/extensions/reorder
+	url = git://github.com/radiant/radiant-reorder-extension.git
+[submodule "vendor/extensions/file-system"]
+	path = vendor/extensions/file_system
+	url = git://github.com/nelstrom/radiant-file-system-extension.git
+[submodule "vendor/extensions/redirect"]
+	path = vendor/extensions/redirect
+	url = git://github.com/edgerunner/radiant-redirect-extension.git
+[submodule "vendor/extensions/google_search"]
+	path = vendor/extensions/google_search
+	url = git://github.com/edgerunner/radiant-google-search-extension.git

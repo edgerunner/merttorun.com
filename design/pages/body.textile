@@ -1,0 +1,2 @@
+Hi, I'm porting my website from _asp.net_ to "Ruby on Rails":http://rubyonrails.com , a much better framework. Please bear with me until I can get everything up and running proper. In the meantime, download my
+<r:assets title="portfolio"><r:link:caption/></r:assets>

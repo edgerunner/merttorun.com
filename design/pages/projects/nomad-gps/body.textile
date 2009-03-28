@@ -1,0 +1,32 @@
+p(meta). 2005 "Umeå Institute of Design":http://www.dh.umu.se, for the _Strategic Design_ Course
+
+*Nomad GPS(Global Positioning System)* is a robotic total station that is made more for cartographers than engineers, in conjunction with ["Silva":http://www.silva.se]'s slogan ??Get out there!??
+
+<r:assets:image title="nomad" size="normal" />
+
+h3. *Strategic* Design
+
+The original idea behind the Nomad GPS(Global Positioning System) total station was to employ Silva’s extensive know-how in navigation and wayfinding into a professional tool to be used in accumulating even more information to be used in the same field. Silva has the background to introduce innovation to the field of topographical measurement. The aim in this project was not to make the most versatile total station and overrun the professional market. The basic idea is to introduce a product with a unique statement for Silva, which will engrave the message of the brand into peoples’ minds. Keeping in mind Silva’s slogan ??Get out there??, it has to be a total station that can be used _on the move_, compared to another one that is very good at doing its job standing in _one_ place. The ownership paradigm for total stations today requires them to be versatile and adaptable to a diverse range of measurement scenarios, and the Silva total station technically should be no exception to this. However by the statement it makes through design, it should strive to be a tool made more for __mapping the wilderness__ rather than __locating a concrete pillar__
+
+Download the <r:assets title="silva-nomad-gps-report"><r:link:caption/></r:assets> for details on the *Strategic Design* process(PDF 2Mb)
+
+h4. Image Sensor
+
+Since the Nomad GPS is a totally robotic, remote operated device, the idea of looking “through” the scope has become almost completely pointless. Thus the viewfinder on the traditional total station is replaced with a digital image sensor, relaying the view through the scope to the screen on the remote controller.
+
+<r:assets:image id="15" size="normal" />
+
+h4. The _Remote_
+
+The remote controller for Nomad GPS is in fact a full blown _handheld computer_ with an operating system and various software running on it. Since the input requirements would differ greatly depending on the job at hand and the software being used for that, the remote does not have any dedicated controls.
+
+<r:assets:image id="17" size="normal" />
+
+Instead there are five _oversized buttons_ that can easily be pressed with gloves on. Four are on one side of the screen to act as menu buttons
+and one on the other to act as a selection/trigger button.
+
+There is also a single force feedback knob, which uses an _Immersion Technologies Haptic Encoder_. This enables the software to simulate resistance, notches, spring action and dead ends on the same knob and immediately switch between modes depending on the requirements.
+
+One of the biggest challenges of existing control panels and remotes for total stations is the requirement to identify a specific measurement. The traditional approach is to give a text label or a number to every measured point, and some controllers even squeeze a full alphanumeric keyboard onto a limited surface for this purpose. The inclusion of a digital image sensor gives an opportunity on this regard. The system could easily capture the transmitted image along with the measurement and mark the measured spot on the image. This is a much more intutive way of identifying a measured point, and it requires no extra action on behalf of the user.
+
+<r:assets:image id="18" size="normal" />

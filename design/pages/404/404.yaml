@@ -1,0 +1,16 @@
+--- 
+layout_name: <inherit> [Master]
+class_name: FileNotFoundPage
+slug: "404"
+virtual: true
+title: <strong>404</strong> Page not found
+updated_by_id: 1
+breadcrumb: "404"
+created_by_id: 1
+description: ""
+twitter_id: 
+published_at: 2009-02-28 22:19:21 Z
+status_id: 100
+notify_twitter_of_children: false
+position: 5
+keywords: ""

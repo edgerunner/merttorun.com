@@ -1,0 +1,9 @@
+_Sorry_, it seems that there is no such page. You may want to start over from the "home page":/ . Or just search for whatever it is you are looking for.
+
+<r:gsearch:form><r:attempted_url/></r:gsearch:form>
+
+Keep in mind that this site has moved on March 2009. Any links to specific pages are probably broken. If the links are from your own site, please update them. "Ask me":/about if you're lost. 
+
+If you desperately must get to something you know that should be here, "let me know":/about and I'll see what I can do.
+
+For the technically oriented: Yes, this is the _404_ page

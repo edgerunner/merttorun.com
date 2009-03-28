@@ -1,0 +1,16 @@
+--- 
+layout_name: <inherit> [Master]
+class_name: ""
+slug: news
+virtual: false
+title: News
+updated_by_id: 1
+breadcrumb: News
+created_by_id: 
+description: ""
+twitter_id: 
+published_at: 2009-02-11 18:04:12 Z
+status_id: 100
+notify_twitter_of_children: false
+position: 2
+keywords: ""

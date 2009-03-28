@@ -1,0 +1,16 @@
+--- 
+layout_name: <inherit> [Master]
+class_name: GoogleSearchPage
+slug: search
+virtual: false
+title: Search
+updated_by_id: 1
+breadcrumb: Search
+created_by_id: 1
+description: ""
+twitter_id: 
+published_at: 2009-03-24 17:05:13 Z
+status_id: 100
+notify_twitter_of_children: false
+position: 4
+keywords: ""

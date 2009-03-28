@@ -1,0 +1,16 @@
+--- 
+layout_name: <inherit> [Master]
+class_name: ""
+slug: about
+virtual: false
+title: About Me
+updated_by_id: 1
+breadcrumb: About
+created_by_id: 1
+description: ""
+twitter_id: 
+published_at: 2009-01-09 12:25:41 Z
+status_id: 100
+notify_twitter_of_children: false
+position: 3
+keywords: ""

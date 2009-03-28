@@ -1,0 +1,16 @@
+--- 
+layout_name: <inherit> [Master]
+class_name: ""
+slug: wiremonkey
+virtual: false
+title: <strong>Wiremonkey</strong> Powerline Inspection Robot
+updated_by_id: 1
+breadcrumb: Wiremonkey
+created_by_id: 1
+description: ""
+twitter_id: 
+published_at: 2009-01-09 13:01:44 Z
+status_id: 100
+notify_twitter_of_children: false
+position: 1
+keywords: ""

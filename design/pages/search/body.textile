@@ -1,0 +1,27 @@
+<r:gsearch>
+
+<r:form class="search"><r:query /></r:form>
+
+<r:clean>Enter your search terms above</r:clean>
+
+<r:no_results>Sorry, there is nothing by those terms. You might want to try a simpler search</r:no_results>
+
+<r:results>
+<r:count one="Just this" many="# results"/> for *<r:query />*
+
+<r:each>
+h6. <r:link/>
+
+p. <r:content/>
+
+</r:each>
+</r:results>
+
+<r:pages>
+table(search-pages).
+|<r:each><r:link/>|</r:each>
+
+Page <r:current:title/> of <r:last:title/>
+
+</r:pages>
+</r:gsearch>

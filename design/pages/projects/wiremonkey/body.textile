@@ -1,0 +1,18 @@
+p(meta). 2005 "Umeå Institute of Design":http://www.dh.umu.se, for the *Emerging Technology* course
+
+_Wiremonkey_ is an autonomous robot that serves the purpose of continuously inspecting the power quality parameters like voltage, phase sync and splice resistance of overhead power transmission lines, thus provide valuable data to power companies for the scheduled preemptive maintenance of the lines, for avoiding failures and reducing costs. Considering that transmission line losses can go up to 20% of energy production, not to mention the induced cost of failures, this can represent considerable savings.
+
+<r:assets:image id="26" size="side" class="side"/>Normally this job is done by human specialists, who have to deenergize the lines to be able to approach them (more losses) and they spend between 30 to 60 minutes per splice in the wire (approximately 2 splices per phase per km)
+
+In contrast, Wiremonkey can traverse 4 to 6km of line per hour (24 hours a day) while measuring, and it works on the energized line, preventing losses. It takes one sample measurement per step while __walking__ on the powerline, and avoids obstacles like insulators on the line just by stepping __over__ them.
+
+<r:assets:image title="if-concept-2008" size="thumbnail" class="side noborder" /> Wiremonkey was awarded the "iF Concept Award 2008":http://www.ifdesign.de/awards_concept_index_e and named _excellent work_ at the "Japan Design Foundation":http://www.jdf.or.jp/eng/index.html International Design Competition Osaka 2006
+
+<r:content part="video" />
+
+<r:assets:image id="27" size="normal" />
+<r:assets:image id="28" size="normal" />
+<r:assets:image id="29" size="normal" />
+
+<r:content part="extras" />
+

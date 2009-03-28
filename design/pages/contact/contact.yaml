@@ -1,0 +1,14 @@
+--- 
+class_name: Page
+position: 2
+slug: contact
+updated_by_id: 
+layout_name: <inherit> [Master]
+title: Contact
+virtual: false
+created_by_id: 1
+breadcrumb: Contact
+description: 
+published_at: 2009-01-09 12:25:41 Z
+status_id: 100
+keywords: 

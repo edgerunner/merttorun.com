@@ -1,0 +1,10 @@
+h3. *Curriculum* Vitae
+
+To find out where I have been and what I have been up to in the 16 years between 1993 and 2009, please download my <r:assets title="cv"><r:link><r:caption/></r:link>(460kb PDF)</r:assets>
+
+h3. _Contact_
+
+Yes, contact me directly through these. Keep in mind that I live in _İstanbul, Turkey_ (Eastern European Time) if you want to call.
+
+- Email := "mert@merttorun.com":mailto:mert@merttorun.com
+- Phone := +90-532-685-7397

@@ -1,0 +1,1 @@
+_WireMonkey_ is an autonomus _robot_ that serves the purpose of continuously inspecting the power quality parameters like voltage, phase sync and splice resistance of overhead power transmission lines, thus provide valuable data to power companies for the scheduled preemptive maintenance of the lines, for avoiding failures and reducing costs.

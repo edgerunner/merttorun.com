@@ -2,7 +2,7 @@
 
 # Uncomment below to force Rails into production mode when
 # you don't control web/app server and can't set it the proper way
-# ENV['RAILS_ENV'] ||= 'production'
+ENV['RAILS_ENV'] = 'production' if File.exists?(File.join(File.dirname(__FILE__), 'production.force'))
 
 # Specifies gem version of Rails to use when vendor/rails is not present
 require File.join(File.dirname(__FILE__), 'boot')
@@ -10,6 +10,8 @@ require File.join(File.dirname(__FILE__), 'boot')
 require 'radius'
 
 Radiant::Initializer.run do |config|
+  config.gem 'haml'
+  
   # Settings in config/environments/* take precedence over those specified here.
   # Application configuration should go into files in config/initializers
   # -- all .rb files in that directory are automatically loaded.
@@ -27,7 +29,7 @@ Radiant::Initializer.run do |config|
   # Only load the extensions named here, in the order given. By default all 
   # extensions in vendor/extensions are loaded, in alphabetical order. :all 
   # can be used as a placeholder for all extensions not explicitly named. 
-  # config.extensions = [ :all ] 
+  config.extensions = [ :settings, :all, :file_system ]
 
   # Force all environments to use the same logger level 
   # (by default production uses :info, the others :debug)
@@ -39,7 +41,7 @@ Radiant::Initializer.run do |config|
   # no regular words or you'll be exposed to dictionary attacks.
   config.action_controller.session = {
     :session_key => '_radiant_session',
-    :secret      => '10438dd9c6cbc4b5ff54c38efb0adaa9d228bbb8'
+    :secret      => 'f3440053d640429cc3764200fb9072184cd85b1f'
   }
   
   # Use the database for sessions instead of the cookie-based default,
@@ -70,9 +72,8 @@ Radiant::Initializer.run do |config|
   
   config.after_initialize do
     # Add new inflection rules using the following format:
-    Inflector.inflections do |inflect|
+    ActiveSupport::Inflector.inflections do |inflect|
       inflect.uncountable 'config'
-      inflect.uncountable 'meta'
     end
 
     # Auto-require text filters
