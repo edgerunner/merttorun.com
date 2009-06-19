@@ -1,5 +1,5 @@
 # Be sure to restart your server when you modify this file
-
+RADIANT_GEM_VERSION = "0.7.1"
 # Uncomment below to force Rails into production mode when
 # you don't control web/app server and can't set it the proper way
 ENV['RAILS_ENV'] = 'production' if File.exists?(File.join(File.dirname(__FILE__), 'production.force'))
