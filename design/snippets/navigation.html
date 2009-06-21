@@ -2,16 +2,17 @@
   <r:parent>
     <r:snippet name="navigation" />
   </r:parent>
- 
+</r:if_parent>
 
+<r:if_children>
   <ul class="navline">
-    <r:parent:children:each by="position" order="asc">
+    <r:children:each by="position" order="asc">
       <r:if_ancestor_or_self>
         <li class="current"><r:if_self:breadcrumb/><r:unless_self:link:breadcrumb/></li>
       </r:if_ancestor_or_self>
       <r:unless_ancestor_or_self:unless_url matches="/sitemap.xml">
         <li><r:link:breadcrumb/></li>
       </r:unless_ancestor_or_self:unless_url>
-    </r:parent:children:each>
+    </r:children:each>
   </ul>
-</r:if_parent>
+</r:if_children>
