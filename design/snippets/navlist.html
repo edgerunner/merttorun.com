@@ -1,0 +1,22 @@
+<r:if_children>
+  <ul>
+    <r:children:each by="position" order="asc">
+      <r:if_ancestor_or_self>
+        <li class="current">
+          <r:if_self>
+            <r:breadcrumb/>
+          </r:if_self>
+          <r:unless_self>
+            <r:link:breadcrumb/>
+          </r:unless_self>
+          <r:snippet name='navlist'/>
+        </li>
+      </r:if_ancestor_or_self>
+      <r:unless_ancestor_or_self>
+        <li>
+          <r:link:breadcrumb/>
+        </li>
+      </r:unless_ancestor_or_self>
+    </r:children:each>
+  </ul>
+</r:if_children>

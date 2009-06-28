@@ -1,0 +1,87 @@
+
+body{
+	background-color: #691B85;
+	font: 12pt/16pt "Gill Sans", Verdana, sans-serif;
+	color: #FFF;
+	margin:0 auto; padding:2em;
+	width:768px;
+	padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 { 
+	margin: 1em 0 6pt 0; 
+	vertical-align: sub;
+	letter-spacing:.1em;
+	text-align:center;
+	}
+h1, h3, h5 { font-weight: bold;   } 
+h2, h4, h6 { font-weight: normal; } 
+h1, h2 { 
+	font-size:24pt; 
+	line-height:32pt;
+	border-top: 1px dotted white;
+	margin-top:48px;
+	}
+h3, h4 { font-size:16pt; line-height:32pt;}
+h5, h6 { font-size:12pt; line-height:16pt;}
+
+.fallback { display: none;}
+h1 { 
+	background: url('/images/ns-flower.png') repeat-x scroll 0 12px;
+	padding-top:60px;
+	}
+h1.site img {border-style: none;}
+h2 { 
+	background: url('/images/ns-flower.png') repeat-x scroll 0 -24px;
+	padding-top:36px;
+	}
+
+p.footer { 
+	border-top: 1px dotted white;
+	margin-top: 48px;
+	margin-bottom: 12pt;
+	font-size: 10pt;
+	background: url('/images/ns-flower.png') repeat-x scroll 0 12px;
+	padding-top:60px;
+}
+
+p {margin: 0;}
+p + p {margin-top: 8pt;}
+
+a { color: #e82a8c; text-decoration: none;}
+a:visited { color: #d81a7c;}
+a:hover { color: #f83a9c; text-shadow: #e82a8c 0 0 3px;}
+
+img { 
+	margin:12pt auto;
+	display:block;
+	border-style: solid;
+	border-color: #d81a7c;
+	border-width: 8pt 2pt;
+	-webkit-border-radius: 8pt;
+	-moz-border-radius: 8pt;
+	}
+	
+p.caption { text-align:center;}
+
+div.navigation {
+	top: -1.5em;
+	padding-top:2em;
+	float:left;
+	width:192px;
+	background-color: #691B85;
+	border: 1px dotted white;
+	-webkit-border-radius: 1em;
+	-moz-border-radius: 1em;
+	position:absolute;
+	margin: 0 6pt 6pt -48px;
+}
+
+div.navigation ul {
+	padding-left:1.5em;
+}
+
+div.navigation li {
+	list-style: none;
+	
+}
