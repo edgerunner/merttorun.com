@@ -1,3 +1,10 @@
-CSS(Cascading Style Sheets) test suite. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud *exercitation* ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate *velit* esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+p(meta). 2005 "Umeå Institute of Design":http://www.dh.umu.se, for the _Sound Design_ Course, in collaboration with "Mine Danışman Taşar":http://www.minedanisman.com and _Ladislao&nbsp;Camarena&nbsp;Solis_
 
-CSS(Cascading Style Sheets) test suite. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud *exercitation* ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate *velit* esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Gato is a GPS navigator/compass designed to make use of sound as a major interface element. It uses sound to direct its user to the correct waypoints. The user either sets a waypoint by pointing towards the desired direction and pressing a button, or uploads a predetermined path from a computer and mapping software. Then the operation of Gato becomes _hands and eyes free_. The user can just start walking and enjoy the scenery, while Gato keeps him aware of the path he is following through sounds. Gato warns its user if he deviates from the determined path, increasing the intensity of the warnings the farther he gets. The user can understand through the sounds Gato makes, the direction towards which he should turn in order to get back on the right track, without ever having to look down.
+
+h4. Sounds
+
+We designed the _interface sounds_ for Gato, generating them from scratch using Adobe Audition. A goal was to make the sounds in a way that would not be out of place in a nature setting, yet still be distinguishable from other natural sounds. Another consideration was to make it easier for the user to understand the sounds without having to look down. In this regard, we looked at the way people use emphasis and intonation when they speak.
+
+<r:assets:image id="33" size="normal" />
+<r:assets:image id="30" size="normal" />

@@ -1,9 +1,6 @@
 [submodule "vendor/extensions/paperclipped"]
 	path = vendor/extensions/paperclipped
 	url = git://github.com/kbingman/paperclipped.git
-[submodule "vendor/extensions/settings"]
-	path = vendor/extensions/settings
-	url = git://github.com/Squeegy/radiant-settings.git
 [submodule "vendor/extensions/reorder"]
 	path = vendor/extensions/reorder
 	url = git://github.com/radiant/radiant-reorder-extension.git
@@ -19,3 +16,12 @@
 [submodule "vendor/extensions/multi_site"]
 	path = vendor/extensions/multi_site
 	url = git://github.com/radiant/radiant-multi-site-extension.git
+[submodule "vendor/extensions/bespin_editor"]
+	path = vendor/extensions/bespin_editor
+	url = git://github.com/jlong/radiant-bespin-editor-extension.git
+[submodule "vendor/extensions/ray"]
+	path = vendor/extensions/ray
+	url = git://github.com/johnmuhl/radiant-ray-extension.git
+[submodule "vendor/extensions/settings"]
+	path = vendor/extensions/settings
+	url = git://github.com/Squeegy/radiant-settings.git

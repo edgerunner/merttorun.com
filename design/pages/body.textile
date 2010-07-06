@@ -1,2 +1,12 @@
 Hi, I'm porting my website from _asp.net_ to "Ruby on Rails":http://rubyonrails.com , a much better framework. Please bear with me until I can get everything up and running proper. In the meantime, download my
 <r:assets title="portfolio"><r:link:caption/></r:assets>
+
+<r:content part="projects"/>
+
+h4. <r:find url="/news"><r:link/></r:find>
+
+What's going on related to me and design, plus a little bit of Twitter.
+
+h4. <r:find url="/about"><r:link/></r:find>
+
+<r:gsearch:form/> if you are really feeling lost in my vast(!) website

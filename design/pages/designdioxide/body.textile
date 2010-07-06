@@ -1,0 +1,61 @@
+h2. Giriş
+
+Bu belgenin amacı, Üçsan'ın mutfağa ve mutfak hayatına yönelik yaklaşımını tanımlamak, ve bunların Üçsan ürünlerine doğru şekilde yansıtılması için ürün geliştirme sürecinde kullanılacak bir klavuz olmaktır.
+
+Bu belge iki ana bölümden oluşur. "Vizyon":#vizyon bölümü, Üçsan'ın mutfak ürünlerinde önem ve öncelik verdiği değerleri tanımlar. Burada tanımlanan özellikler, Üçsan ismiyle eşleşmiş olmasını istediğimiz özelliklerdir. "Karakter":#karakter bölümü ise, ürün tasarımı eğitimi almış kişilere yöneliktir. Üçsan ürünlerinin hem tutarlı ve tanınabilir olmak adına, hem de _Vizyon_ bölümünde bahsi geçen özellikleri desteklemek adına sahip olması gereken biçimsel parametreleri tanımlar.
+
+Bu iki bölümde belirtilen parametrelerin hayata özenle geçirilmesinin, Üçsan'ı sektöründe örnek alınacak bir firma olmak yolunda önemli bir katkı sağlayacağına inanıyoruz. 
+
+h1(#vizyon). Vizyon
+
+Bu bölümde bahsi geçen kriterler Üçsan ürünlerini ayrıcalıklı yapan özellikler olmalıdır. Bir ürünün geliştirme, üretim ve satış evresinde ortaya emeğini koyan herkes, bu kriterlerden haberdar olmalı, ürünlerin bu konularda nasıl daha iyi olabileceği konusunda fikir geliştirmeli ve paylaşmalıdır.
+
+Üçsan ürünleri üç özelliği her zaman üzerinde taşımalıdır. *Kolaylık*, *sağlık* ve *sadelik*.
+
+h3. Kolaylık
+
+Üçsan ürünlerinin var oluş sebebi, kullanıcısının hayatını kolaylaştırmaktır.  Üçsan ürünleri, kullanışlılık konusunda hep en iyi olmaya çalışmalı, işini en kolay şekilde yapmalı, en kolay şekilde temizlenmeli ve depolanmalıdır. Kullanıcısının hayatını gerçekten kolaylaştıran bir ürün ve üreticisi, uzun yıllar boyu beğeni toplayacak, takip ve tavsiye edilecektir. 
+
+h3. Sağlık 
+
+Üçsan firması, plastik ürünlerin sağlık konusundaki olumsuz imajını ortadan kaldırmayı görev bilmelidir. 
+
+Üçsan ürunleri gerek malzeme seçimi gerek ise detay çözümleri sayesinde plastik mutfak ürünlerinin oluşturduğu sağlık risklerini en aza indirmelidir. Bu süreçte, hatalı kullanım şekillerinin de sağlık sorunları yaratabileceği göz önünde bulundurulmalı ve ürünlerin hatalı kullanıma fırsat vermeyecek şekilde tasarlanmasına özen gösterilmeidir. 
+
+Bu sayede Üçsan ürünleri, cam ve seramik ürünlerin tercih edildiği alanlarda da rekabet edebilir.
+
+h3. Sadelik
+
+Sadelik, gereksiz şeylerden kurtulma sanatıdır. Üçsan ürünleri, kullanımları için gerekli ve faydalı olmayan hiç bir detayı üzerlerinde barındırmazlar. Sade ürünler kolay üretilir, kolay anlaşılır, kolay kullanılır, kolay temizlenir, zor bozulur. Modaları geçmez, uzun yıllar boyu estetik değerlerini koruyabilirler.
+
+Sade ürünler —sanılanın aksine— çok işlevlidir. Gereksiz detay içermeyen ürünler, tasarımcı ve üreticisinin hayal bile edemediği işlerde kullanılabilir, bu sayede tahmin edilenin ötesinde beğeni görebilir ve pazar bulabilir.
+
+Sadelik Üçsan ürünlerinin işlevsellik yönünde kendini belli etmelidir. Üçsan ürünleri, yapacakları işi en basit şekilde yapmalı, az ihiyaç duyulan ek işlevler adına daha karmaşık bir nesneye dönuşmekten kaçınmalıdır.
+
+h1(#karakter). Karakter
+
+Üçsan ürünleri, "Vizyon":#vizyon bölümünde belirtilen özellikleri taşıdığını kullanıcısına sadece görünümü ile anlatabilmelidir. Diğer bir yandan, tüm Üçsan ürünleri, üzerlerinde marka yazmadığı halde tanınabilecek, ve bir arada uyumlu duracak görsel karaktere sahip olmalıdır.
+
+Bu bölümde bahsedilen özelliklerin uygulama aşamasında bir ürünün tüm detaylarına uygulanmasının mümkün olmayacağı durumlar olacaktır. Bu durumda öncelik, Vizyon özelliklerinin uygulanmasına verilmeli, ancak ürünün baskın öğelerinin bu bölümdeki özellikleri taşımasına özen gösterilmelidir.
+
+h3. Kesintisiz tek yüzey
+
+Bir Üçsan ürününün her bir parçası, mümkün olduğunca, tek bir *5. derece* NURBS(Non Uniform Rational B-Spline) yüzeyden oluşmalıdır. Bu yüzey, yine mümkün olduğunca keskin dönüşler, kırıklar(_kink_) veya tekillikler(_singularity_) içermemeli, her noktası, temizlik yapılırken rahatça erişilebilir olmalıdır.
+
+Birden fazla yüzeyin bir araya gelmesi gereken durumlarda, yüzeyler G2 eğim uyumu(_Curvature Continuity_) ile bir araya gelmeli, yüzey kendi üzerine kapanıyor ise periyodik olmalıdır.
+
+!http://merttorun.clientsection.com/projects/1933206/file/30878359/deg5.jpg! 
+
+p(caption). 5. Derece tek yüzeyler
+
+!http://merttorun.clientsection.com/projects/1933206/file/30878331/dar-kirik-tekil.jpg! 
+
+p(caption). Uzak durulması gereken keskin dönüşlü(*A*), kırık(*B*) ve tekillik içeren(*C*) yüzeyler
+
+!http://merttorun.clientsection.com/projects/1933206/file/30878286/g2.jpg!
+
+p(caption). *G2* yüzey uyumu (curvature continuity)
+
+!http://merttorun.clientsection.com/projects/1933206/file/30878247/p-np.jpg! 
+
+p(caption). Periyodik(*P*) ve periyodik olmayan(*NP*), kendı üzerine kapanan yüzeyler

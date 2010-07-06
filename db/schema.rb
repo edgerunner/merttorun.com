@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20081203140407) do
+ActiveRecord::Schema.define(:version => 20091003095744) do
 
   create_table "assets", :force => true do |t|
     t.string   "caption"
@@ -85,10 +85,18 @@ ActiveRecord::Schema.define(:version => 20081203140407) do
     t.string   "twitter_id"
   end
 
-  add_index "pages", ["virtual", "status_id"], :name => "pages_published"
-  add_index "pages", ["slug", "parent_id"], :name => "pages_child_slug"
-  add_index "pages", ["parent_id"], :name => "pages_parent_id"
   add_index "pages", ["class_name"], :name => "pages_class_name"
+  add_index "pages", ["parent_id"], :name => "pages_parent_id"
+  add_index "pages", ["slug", "parent_id"], :name => "pages_child_slug"
+  add_index "pages", ["virtual", "status_id"], :name => "pages_published"
+
+  create_table "redirections", :force => true do |t|
+    t.string  "from_path"
+    t.string  "to_path"
+    t.boolean "temporary"
+  end
+
+  add_index "redirections", ["from_path"], :name => "index_redirections_on_from_path", :unique => true
 
   create_table "sessions", :force => true do |t|
     t.string   "session_id"
@@ -96,8 +104,16 @@ ActiveRecord::Schema.define(:version => 20081203140407) do
     t.datetime "updated_at"
   end
 
-  add_index "sessions", ["updated_at"], :name => "index_sessions_on_updated_at"
   add_index "sessions", ["session_id"], :name => "index_sessions_on_session_id"
+  add_index "sessions", ["updated_at"], :name => "index_sessions_on_updated_at"
+
+  create_table "sites", :force => true do |t|
+    t.string  "name"
+    t.string  "domain"
+    t.integer "homepage_id"
+    t.integer "position",    :default => 0
+    t.string  "base_domain"
+  end
 
   create_table "snippets", :force => true do |t|
     t.string   "name",          :limit => 100, :default => "", :null => false
@@ -122,11 +138,12 @@ ActiveRecord::Schema.define(:version => 20081203140407) do
     t.integer  "created_by_id"
     t.integer  "updated_by_id"
     t.boolean  "admin",                        :default => false, :null => false
-    t.boolean  "developer",                    :default => false, :null => false
+    t.boolean  "designer",                     :default => false, :null => false
     t.text     "notes"
     t.integer  "lock_version",                 :default => 0
     t.string   "salt"
     t.string   "session_token"
+    t.string   "locale"
   end
 
   add_index "users", ["login"], :name => "login", :unique => true
