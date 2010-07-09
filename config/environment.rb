@@ -13,8 +13,7 @@ Radiant::Initializer.run do |config|
   # Skip frameworks you're not going to use (only works if using vendor/rails).
   # To use Rails without a database, you must remove the Active Record framework
   config.frameworks -= [ :action_mailer ]
-  
-  config.gem 'radiant-settings-extension', :lib => false
+
   # Only load the extensions named here, in the order given. By default all
   # extensions in vendor/extensions are loaded, in alphabetical order. :all
   # can be used as a placeholder for all extensions not explicitly named.
@@ -31,7 +30,7 @@ Radiant::Initializer.run do |config|
   # no regular words or you'll be exposed to dictionary attacks.
   config.action_controller.session = {
     :key => '_merttorun.com_session',
-    :secret      => '2e8ac33047f6035630d137d0715dd6e99e76c477'
+    :secret      => '7ee850ecc740125ffd333f96082c57a7c54acef3'
   }
 
   # Comment out this line if you want to turn off all caching, or
