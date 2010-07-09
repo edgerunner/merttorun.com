@@ -1,8 +1,10 @@
 document.observe("dom:loaded", function() {
-  if($('asset-bucket')){
-    new Draggable('asset-bucket', { starteffect: false, endeffect: false });
+  // if($('asset-bucket')){
+  //   new Draggable('asset-bucket', { starteffect: false, endeffect: false });
+  // }
+  if($('page-attachments')){
+    Asset.ChooseTabByName('page-attachments');
   }
-  Asset.ChooseTabByName('page-attachments');
 });
 
 var Asset = {};
@@ -96,7 +98,7 @@ Asset.ShowBucket = Behavior.create({
   onclick: function(e){
     e.stop();
     var element = $('asset-bucket');
-    center(element);
+    element.centerInViewport();
     element.toggle();
     Asset.MakeDroppables();
   }
@@ -150,8 +152,10 @@ Asset.ResetForm = function (name) {
 Asset.AddAsset = function (name) {
   element = $(name); 
   asset = element.select('.asset')[0];
-  console.log('inserted element is ', element);
-  console.log('contained asset is ', asset);
+  if (window.console && window.console.log) {
+    console.log('inserted element is ', element);
+    console.log('contained asset is ', asset);
+  }
   if (asset) {
     new Draggable(asset, { revert: true });
   }
