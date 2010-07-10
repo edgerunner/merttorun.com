@@ -1,0 +1,6 @@
+.DS_Store
+config/
+disabled_extensions/
+preferences.yml
+removed_extensions/
+tmp/

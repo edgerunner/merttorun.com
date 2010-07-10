@@ -1,0 +1,26 @@
+%h1 Redirections
+
+%p Allows you to set permanent or temporary redirections.
+
+%table.index
+  %tr
+    %th From Path
+    %th To Path
+    %th Type
+    %th.modify Modify
+
+  - @redirections.each do |redirect|
+    %tr.node
+      %td= redirect.from_path
+      %td= redirect.to_path
+      %td= redirect.temporary ? 'Temporary (301)' : 'Permanent (302)' 
+      %td.remove= link_to image_tag('/images/admin/remove.png'), admin_redirect_path(redirect), :method => :delete
+  
+  %tr.node
+    - form_for :redirection, Redirection.new do |f|
+      %td= f.text_field :from_path
+      %td= f.text_field :to_path
+      %td
+        = f.check_box :temporary
+        = f.label :temporary
+      %td= f.submit 'Add'
