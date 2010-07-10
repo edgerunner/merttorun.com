@@ -1,0 +1,5 @@
+rails
+rdiscount
+RedCloth
+s3
+radiant --version '0.9.1'

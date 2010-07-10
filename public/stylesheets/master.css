@@ -124,6 +124,8 @@ p.footer {
 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { color: inherit ; }
 
+h6.date { margin: -1em 0 0; padding:0; color:#ccc; }
+
 p.mark:before {
   content: "► " ;
   color:#CCC;
