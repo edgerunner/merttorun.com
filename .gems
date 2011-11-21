@@ -2,4 +2,5 @@ rails
 rdiscount
 RedCloth
 s3
+maruku
 radiant --version '0.9.1'

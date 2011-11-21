@@ -1,0 +1,42 @@
+h1. Radiant CMS: Maruku Extension
+
+This is an extension to Radiant CMS that adds support for Maruku: A
+Markdown-superset interpreter.
+
+
+h2. Maruku features
+
+* Markdown
+** http://daringfireball.net/projects/markdown/syntax
+** http://daringfireball.net/projects/markdown/syntax.text
+
+* Markdown Extra
+** http://michelf.com/projects/php-markdown/extra/
+
+* Meta-data syntax
+** http://maruku.rubyforge.org/maruku.html
+** http://maruku.rubyforge.org/proposal.html
+
+
+h2. Install it
+
+The extension requires the maruku gem, so let's install that first with
+
+<pre>
+sudo gem install maruku
+</pre>
+
+Next up is to install the extension in the vendor/extensions directory of your
+Radiant site. So let's change to that directory first
+
+<pre>
+cd path/to/site/vendor/extensions
+</pre>
+
+And now we'll clone the git repo
+
+<pre>
+git clone git://github.com/michelsen/radiant_maruku.git
+</pre>
+
+After a quick restart of Radiant, you should be victorious.
