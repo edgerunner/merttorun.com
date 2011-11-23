@@ -4,4 +4,5 @@ RedCloth
 s3
 maruku
 coffee-script
+transmogrify
 radiant --version '0.9.1'
